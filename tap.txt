@@ -1,0 +1,80 @@
+##login:
+
+make form
+hit api (token)
+save token to local storage
+/admin
+
+
+##profile:
+
+MY profile
+link => /admin/my-profile
+route => /admin/my-profile => AdminProfile
+AdminProfile
+    hit api on page load (useEffect)
+    token => get token from local storage
+
+    
+##logout:
+
+link => /admin/logout
+route => /admin/logout => AdminLogout
+AdminLogout
+    hit api
+    clear token from local storage
+    redirect to /admin/login
+
+
+##Update profile:
+
+make update profile button on my profile when clicked change link to admin/profile-update
+route admin/profile-update  => UpdateProfile
+UpdateProfile
+    make a form email*,password*,role* 
+    button => Update  (hit api)
+    for data populate => get myProfile api on page load and set data
+
+##Update password:
+    link => admin/update-password
+    route => admin/update-password => AdminUpdatePassword
+
+    AdminUpdatePassword
+        make a form for oldPassword, newPassword
+        make a update button
+            hit api
+            logout (remove token from localstorage)
+            login page
+
+##forgot password
+    forgot password(button) click ("/admin/forgot-password")
+    component ("/admin/forgot-password") => AdminForgotPassword
+
+    AdminForgotPassword
+        email
+
+##reset password
+    route /reset-password => AdminResetPassword
+    AdminResetPassword
+        password
+    redirect to /admin/login
+
+read all user => admin => superadmin
+read specific user =>admin => superadmin
+delete user => superadmin
+update user => superadmin
+
+
+login (if login)(show)
+myProfile
+update-password
+logout
+update-profile(***************)
+read-all-user
+
+logout
+show login
+show register
+
+## JUst Random things add to the code for fun
+

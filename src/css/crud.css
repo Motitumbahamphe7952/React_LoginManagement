@@ -1,0 +1,259 @@
+/* Minimal form container */
+.create-user-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+/* Form group spacing */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* Input fields */
+.form-group input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #66b2ff;
+  box-shadow: 0px 0px 6px rgba(102, 178, 255, 0.6);
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #66b2ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #4d9ce3;
+}
+
+/* Adding some spacing between form elements */
+.create-user-form div {
+  margin-bottom: 15px;
+}
+
+/* General typography */
+body {
+  background-color: #f0f0f0;
+  font-family: "Helvetica", sans-serif;
+}
+
+.create-user-form {
+  font-family: inherit;
+}
+
+/* Css for nav bar */
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #c0daf588;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 16px;
+  color: #337ab7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #23527c;
+}
+
+.nav-link.active {
+  color: #337ab7;
+  border-bottom: 2px solid #337ab7;
+}
+
+/* Css for home-page */
+.home-page {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-page p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.home-page img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* CSS for Admin Dashboard  */
+.admin-dashboard {
+  width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.admin-dashboard h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.admin-dashboard p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* admin profile update */
+.admin-profile-update-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-profile-update-form {
+  margin-top: 5px;
+}
+
+.admin-profile-update-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.admin-profile-update-input {
+  width: 96%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.admin-profile-update-radio {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-profile-update-button {
+  width: 100%;
+  height: 40px;
+  background-color: #66b2ff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-profile-update-button:hover {
+  background-color: #3192f4;
+}
+
+/* css for updatespecificuser */
+.update-specific-user-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-specific-user-form {
+  margin-top: 5px;
+}
+
+.update-specific-user-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.update-specific-user-input {
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-specific-user-radio {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.update-specific-user-button {
+  width: 100%;
+  height: 40px;
+  background-color: #66b2ff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.update-specific-user-button:hover {
+  background-color: #3192f4;
+}
