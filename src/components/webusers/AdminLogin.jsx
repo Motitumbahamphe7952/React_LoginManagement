@@ -26,6 +26,7 @@ const AdminLogin = () => {
         url: `${bUrl}/web-users/login`,
         method: "post",
         data: data,
+        headers: { "Content-Type": "application/json", },
       });
 
       let token = result.data.token;
