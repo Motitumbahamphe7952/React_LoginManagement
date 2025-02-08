@@ -1,6 +1,6 @@
    // axiosConfig.js
    import axios from 'axios';
 
-   axios.defaults.withCredentials = true;
+   // axios.defaults.withCredentials = true;
 
    export default axios;
