@@ -174,7 +174,7 @@ const UpdateSpecificUser = () => {
     try {
       let result = await axios({
         url: `${bUrl}/web-users/${id}`,
-        method: "patch",
+        method: "post",
         data: data,
         headers: {
           Authorization: `Bearer ${token}`,
