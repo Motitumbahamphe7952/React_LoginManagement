@@ -176,4 +176,4 @@ Your full-stack app is now live on Vercel!
 
 
 📬 **Contact**  
-For issues, reach out via [GitHub Issues](https://github.com/Motitumbahamphe7952/React_loginManagement_Backend/issues) or email: `nikhillimbu918@example.com`.
+For issues, reach out via email: `nikhillimbu918@example.com`.
