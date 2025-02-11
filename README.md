@@ -173,10 +173,5 @@ Your full-stack app is now live on Vercel!
 
 ---
 
-📝 **License**  
-This project is open-source under the [MIT License](LICENSE).
-
----
-
 📬 **Contact**  
-For issues, reach out via [GitHub Issues](https://github.com/Motitumbahamphe7952/React_loginManagement_Backend/issues) or email: `your-email@example.com`.
+For issues, reach out via [GitHub Issues](https://github.com/Motitumbahamphe7952/React_loginManagement_Backend/issues) or email: `nikhillimbu918@example.com`.
